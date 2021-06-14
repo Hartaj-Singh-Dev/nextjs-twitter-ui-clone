@@ -1,0 +1,58 @@
+
+div.TweetPost{
+	min-height: 5.5rem;
+	width: 100%;
+	padding: 0.9rem 0.4rem 0.5rem 0.3rem ;
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+
+	div.PostHeader{
+		display: flex;
+		color: #fcfcfc;
+
+		div.userAvatar{
+			display: flex;
+			justify-content: center;
+			width: 10%;
+		}
+
+		div.tweetData{
+			width: 90%;
+
+			div.tweetSender{
+				display: flex;
+			  h3{
+				  font-size: medium;
+				  font-weight: 650;
+				cursor: pointer;
+			  }
+
+			  h3:hover{
+				
+				  text-decoration: underline;
+			  }
+				  span{
+					  font-size: small;
+					  color: rgba(255,255,255,0.5);
+				  }
+			}
+		}
+	}
+
+
+	div.postFooter{
+		width: 100%;
+		height: 1.5rem;
+		margin: 0.2rem 0 0rem 0 ;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		div.footIcons{
+			width: 80%;
+			display: flex;
+			justify-content: space-evenly;
+			color: rgba(255,255,255,0.4) ;
+			font-size: small;
+		}
+	}
+}

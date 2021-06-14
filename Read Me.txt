@@ -1,0 +1,6 @@
+Sir after taking 2 more hours to built this ui clone 
+I you want to look at the preview on you system 
+then make sure that all the modules listed in package.json are installed
+and after downloading of all dependencies you can run this command to view on you localhost " npm run dev"
+
+Hope You will Love It
